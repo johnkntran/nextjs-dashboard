@@ -1,11 +1,11 @@
 import SideNav from '@/app/ui/dashboard/sidenav';
 import React from 'react';
 
-interface DashboardChildrenProps {
+interface DashboardlLayoutProps {
   children: React.ReactNode;
 }
 
-export default function Layout({ children }: DashboardChildrenProps) {
+export default function Layout({ children }: DashboardlLayoutProps) {
   return (
     <div className="flex h-screen flex-col md:flex-row md:overflow-hidden">
       <div className="w-full flex-none md:w-64">
