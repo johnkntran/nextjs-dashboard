@@ -11,7 +11,7 @@ services:
       - ..:/workspaces
 
     # Overrides default command so things don't shut down after the process ends.
-    command: sleep infinity
+    command: npm run seed && npm run dev
 
     # Runs app on the same network as the database container, allows "forwardPorts" in devcontainer.json function.
     # network_mode: service:db
