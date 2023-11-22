@@ -16,7 +16,7 @@
 	"forwardPorts": [3000, 5432, 8080],
 
 	// Use 'postCreateCommand' to run commands after the container is created.
-	"postCreateCommand": "git config --global user.name \"John Tran\" && git config --global user.email john.kn.tran@gmail.com",
+	"postCreateCommand": "git config --global user.name $GIT_USERNAME && git config --global user.email $GIT_EMAIL",
 
 	// Configure tool-specific properties.
 	"customizations": {
