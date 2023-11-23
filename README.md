@@ -14,5 +14,5 @@ GIT_USERNAME=johnkntran # replace with your own registered GitHub username
 GIT_EMAIL=tran.spam@yahoo.com # replace with your own registered GitHub email
 ```
 - Open the Command Palette by clicking `View -> Command Palette...` or clicking `Command + Shift + P` on Mac or `Control + Shift + P` on Windows.
-- In the palette, type `> Dev Containers: Open Folder in Container...`.
+- In the palette, type `> Dev Containers: Open Folder in Container...` and choose this project folder.
 - Once the project loads up, go to http://127.0.0.1:3000 to see the running app.
